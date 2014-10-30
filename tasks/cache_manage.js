@@ -1,6 +1,6 @@
 /*
- * grunt-cache-control
- * https://github.com/rou/grunt-cache-control
+ * grunt-cache-manage
+ * https://github.com/rou/grunt-cache-manage
  *
  * Copyright (c) 2014 "rou" Seitaro Makabe
  * Licensed under the MIT license.
@@ -41,7 +41,7 @@ function compile(options, callback) {
 }
 
 module.exports = function(grunt) {
-  grunt.registerMultiTask('cache_control', 'Generate a file which manages file\'s versions.', function() {
+  grunt.registerMultiTask('cache_manage', 'Generate a file which manages file\'s versions.', function() {
     // Merge task-specific and/or target-specific options with these defaults.
     var options = this.options({
       algorithm: 'md5',

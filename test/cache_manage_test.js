@@ -2,7 +2,7 @@
 
 var grunt = require('grunt');
 
-exports.cache_control = {
+exports.cache_manage = {
   default_options: function(test) {
     test.expect(1);
 

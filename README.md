@@ -1,4 +1,4 @@
-# grunt-cache-control
+# grunt-cache-manage
 
 > Generate a file which manages file's versions.
 
@@ -8,23 +8,23 @@ This plugin requires Grunt `~0.4.5`
 If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:
 
 ```shell
-npm install grunt-cache-control --save-dev
+npm install grunt-cache-manage --save-dev
 ```
 
 Once the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:
 
 ```js
-grunt.loadNpmTasks('grunt-cache-control');
+grunt.loadNpmTasks('grunt-cache-manage');
 ```
 
-## The "cache_control" task
+## The "cache_manage" task
 
 ### Overview
-In your project's Gruntfile, add a section named `cache_control` to the data object passed into `grunt.initConfig()`.
+In your project's Gruntfile, add a section named `cache_manage` to the data object passed into `grunt.initConfig()`.
 
 ```js
 grunt.initConfig({
-  cache_control: {
+  cache_manage: {
     main: {
       options: {
         algorithm: 'md5',
@@ -58,7 +58,7 @@ Default value: `'utf8'`
 
 ```js
 grunt.initConfig({
-  cache_control: {
+  cache_manage: {
     options: {},
     files: {
       'key_name': 'path/to/file',
@@ -73,7 +73,7 @@ grunt.initConfig({
 
 ```js
 grunt.initConfig({
-  cache_control: {
+  cache_manage: {
     options: {
       algorithm: 'sha1',
       encoding: 'utf16le',
