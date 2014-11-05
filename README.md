@@ -1,6 +1,7 @@
 # grunt-cache-manage
 
 [![npm version](https://badge.fury.io/js/grunt-cache-manage.svg)](http://badge.fury.io/js/grunt-cache-manage)
+[![Build Status](https://travis-ci.org/rou/grunt-cache-manage.svg?branch=master)](https://travis-ci.org/rou/grunt-cache-manage)
 
 > Generate a file which manages file's versions.
 
