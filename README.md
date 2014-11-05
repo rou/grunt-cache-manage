@@ -1,5 +1,7 @@
 # grunt-cache-manage
 
+[![npm version](https://badge.fury.io/js/grunt-cache-manage.svg)](http://badge.fury.io/js/grunt-cache-manage)
+
 > Generate a file which manages file's versions.
 
 ## Getting Started
