@@ -1,7 +1,7 @@
 {
   "name": "grunt-cache-manage",
   "description": "Generate a file which manages file's versions.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/rou/grunt-cache-manage",
   "author": {
     "name": "rou",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": ") git://github.com/rou/grunt-cache-manage.git"
+    "url": "git://github.com/rou/grunt-cache-manage.git"
   },
   "bugs": {
     "url": "https://github.com/rou/grunt-cache-manage/issues"
