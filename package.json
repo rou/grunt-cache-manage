@@ -1,7 +1,7 @@
 {
   "name": "grunt-cache-manage",
   "description": "Generate a file which manages file's versions.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "homepage": "https://github.com/rou/grunt-cache-manage",
   "author": {
     "name": "rou",
