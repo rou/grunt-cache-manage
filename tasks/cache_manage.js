@@ -57,7 +57,7 @@ module.exports = function(grunt) {
       var file = files[key];
       hash(file, options, function(error, data) {
         if (error) {
-          throw new Error('failed hashing.');
+          throw new Error('failed hashing. (' + error.toString() + ')');
         }
         values[key] = data;
         callback();
