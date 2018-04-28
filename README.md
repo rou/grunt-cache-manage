@@ -91,5 +91,6 @@ grunt.initConfig({
 ```
 
 ## Release History
+* 2018-04-28      v0.2.0     Updated dependencies. (#4)
 * 2018-01-26      v0.1.3     Print error detail when failed hashing. (#2)
 * 2014-10-30      v0.1.0     First release.
