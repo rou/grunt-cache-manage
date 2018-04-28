@@ -8,24 +8,24 @@
 
 'use strict';
 
-var mu = require('mu2');
-var crypto = require('crypto');
-var fs = require('fs');
-var async = require('async');
+const mu = require('mu2');
+const crypto = require('crypto');
+const fs = require('fs');
+const async = require('async');
 
 function hash(path, options, callback) {
   if (typeof options === 'function') {
     callback = options;
     options = {};
   }
-  var algorithm = options.algorithm || 'md5';
-  var encoding = options.encoding || 'utf8';
+  const algorithm = options.algorithm || 'md5';
+  const encoding = options.encoding || 'utf8';
 
   fs.readFile(path, function(error, data) {
     if (error) {
       return callback(error);
     }
-    var hash = crypto.createHash(algorithm);
+    const hash = crypto.createHash(algorithm);
     hash.update(data, encoding);
 
     callback(null, hash.digest('hex'));
@@ -43,18 +43,18 @@ function compile(options, callback) {
 module.exports = function(grunt) {
   grunt.registerMultiTask('cache_manage', 'Generate a file which manages file\'s versions.', function() {
     // Merge task-specific and/or target-specific options with these defaults.
-    var options = this.options({
+    const options = this.options({
       algorithm: 'md5',
       encoding: 'utf8'
     });
 
-    var files = this.data.files;
-    var template = this.data.template;
-    var dest = this.data.dest;
-    var done = this.async();
-    var values = {};
+    const files = this.data.files;
+    const template = this.data.template;
+    const dest = this.data.dest;
+    const done = this.async();
+    const values = {};
     async.each(Object.keys(files), function(key, callback) {
-      var file = files[key];
+      const file = files[key];
       hash(file, options, function(error, data) {
         if (error) {
           throw new Error('failed hashing. (' + error.toString() + ')');
