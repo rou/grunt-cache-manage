@@ -6,7 +6,7 @@
 > Generate a file which manages file's versions.
 
 ## Getting Started
-This plugin requires Grunt `~0.4.5`
+This plugin requires Grunt `>=1.0.0`
 
 If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:
 
@@ -91,6 +91,10 @@ grunt.initConfig({
 ```
 
 ## Release History
-* 2018-04-28      v0.2.0     Updated dependencies. (#4)
-* 2018-01-26      v0.1.3     Print error detail when failed hashing. (#2)
-* 2014-10-30      v0.1.0     First release.
+
+date | version | description
+---|---|---
+2018-10-11 | v0.3.0 | Fix dependencies vulnerabilities ( #5 )
+2018-04-28 | v0.2.0 | Updated dependencies. ( #4 )
+2018-01-26 | v0.1.3 | Print error detail when failed hashing. ( #2 )
+2014-10-30 | v0.1.0 | First release.
