@@ -94,6 +94,7 @@ grunt.initConfig({
 
 date | version | description
 ---|---|---
+2019-02-28 | v0.3.1 | Fix dependencies vulnerabilities ( #6 )
 2018-10-11 | v0.3.0 | Fix dependencies vulnerabilities ( #5 )
 2018-04-28 | v0.2.0 | Updated dependencies. ( #4 )
 2018-01-26 | v0.1.3 | Print error detail when failed hashing. ( #2 )
